@@ -11,9 +11,25 @@
 
 .toolbar-header {
   border-bottom: 1px solid $dark-border-color;
+  display: inline-flex;
 
   .title {
     margin-top: 1px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .action-group{
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 1px 5px 0 2px;
+
+    .action-button{
+      display: inline-block;
+      padding: 0 5px;
+      -webkit-app-region: no-drag;
+    }
+
   }
 }
 

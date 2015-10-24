@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../css/photon.min.css">
 
     <!-- Javascript -->
+    <script src="js/photon.js" charset="utf-8"></script>
     <script src="js/menu.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="window">
@@ -15,6 +17,18 @@
       <!-- .toolbar-header sits at the top of your app -->
       <header class="toolbar toolbar-header">
         <h1 class="title">Photon</h1>
+
+        <ul class="action-group">
+          <li class="action-button" action-maximize-window>
+            <span class="icon icon-plus"></span>
+          </li>
+          <li class="action-button" action-minimize-window>
+            <span class="icon icon-minus"></span>
+          </li>
+          <li class="action-button" action-close-window>
+            <span class="icon icon-cancel"></span>
+          </li>
+        </ul>
       </header>
 
       <!-- Your app's content goes inside .window-content -->
